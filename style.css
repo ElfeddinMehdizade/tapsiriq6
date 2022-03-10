@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(134, 132, 132);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    height: 70px;
+    background: rgb(156, 156, 179);
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.nav .header .zero{
+    font-size: 22px;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+}
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-height: auto;
+    background: yellow;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 4px;
+}
+.calculator .box-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-1 .book-1{
+    width: 50%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: red;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-1 .book-2{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-1 .book-3{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.calculator .box-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-2 .paper-1{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-2 .paper-2{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-2 .paper-3{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-2 .paper-4{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.calculator .box-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-3 .pen-1{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-3 .pen-2{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-3 .pen-3{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-3 .pen-4{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.calculator .box-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-4 .notebook-1{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-4 .notebook-2{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-4 .notebook-3{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-4 .notebook-4{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.calculator .box-5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-5 .write-1{
+    width: 50%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-5 .write-2{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box-5 .write-3{
+    width: 25%;
+    height: 40px;
+    padding: 4px;
+    font-size: 22px;
+    text-align: center;
+    background: blue;
+    color: white;
+    margin: 3px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
